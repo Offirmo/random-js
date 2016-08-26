@@ -1,3 +1,7 @@
+# 2.0.2 (2016-08-26)
+
+- feature: integrated typescript typings
+
 # 2.0.1 (2016-08-26)
 
 - declare uglifyjs as a proper dependency + fix its invocation
@@ -9,10 +13,11 @@
 
 - Fix Int32Array detection on iOS 9 Safari (from raymond-w-ko)
 - add support for nodejs crypto in browserCrypto engine (from AccaliaDeElementia)
-- intergrate jasmine-node as a dependency
+- integrate jasmine-node as a dependency
 
  XXX
 - BREAKING CHANGE solve ES5/ES6 interop problem by not using a default export
+- BREAKING CHANGE module published to @offirmo/random in npm
 - minified version not up-to-date (fixed in next version)
  XXX
 

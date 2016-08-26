@@ -1,9 +1,10 @@
-// Type definitions for random-js 2.0.0
+// Type definitions for @offirmo/random 2.0.0
+// Based on random-js
 // Based on the work of:
 // Gustavo Di Pietro <https://github.com/pistacchio>
 // From https://github.com/DefinitelyTyped/DefinitelyTyped
 
-declare module "random-js" {
+declare module "@offirmo/random" {
 
 	export interface Engine {}
 
