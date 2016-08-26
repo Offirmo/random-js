@@ -1,7 +1,7 @@
 {
-  "name": "random-js",
+  "name": "@offirmo/random",
   "description": "A mathematically correct random number generator library for JavaScript.",
-  "version": "1.0.8",
+  "version": "2.0.0",
   "author": {
     "name": "Cameron Kenneth Knight",
     "email": "ckknight@gmail.com"
