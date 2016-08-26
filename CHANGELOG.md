@@ -2,6 +2,8 @@
 
 - declare uglifyjs as a proper dependency + fix its invocation
 - use "np" for releasing
+- update minified version
+- add sourcemap
 
 # 2.0.0 (2016-08-26)
 
@@ -11,6 +13,7 @@
 
  XXX
 - BREAKING CHANGE solve ES5/ES6 interop problem by not using a default export
+- minified version not up-to-date (fixed in next version)
  XXX
 
 # 1.0.8 (2015-10-13)
