@@ -238,7 +238,6 @@ All the code in Random.js is fully tested and covered using `jasmine`.
 
 To run tests in node.js:
 
-    npm install -g jasmine-node
     npm test
 
 To run tests in browsers:
