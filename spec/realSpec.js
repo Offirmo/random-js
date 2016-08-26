@@ -1,4 +1,4 @@
-(function (Random) {
+(function ({Random}) {
   describe("real distribution", function () {
     describe("realZeroToOneInclusive", function () {
       it("calls uint53Full and divides by the maximum", function () {

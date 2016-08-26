@@ -1,4 +1,4 @@
-(function (Random) {
+(function ({Random}) {
   describe("date distribution", function () {
     describe("when start is not a date", function () {
       it("throws a TypeError", function () {

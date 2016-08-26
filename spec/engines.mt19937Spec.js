@@ -1,4 +1,4 @@
-(function (Random) {
+(function ({Random}) {
   describe("engines.mt19937", function () {
     "use strict";
 

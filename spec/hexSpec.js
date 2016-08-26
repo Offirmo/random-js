@@ -1,4 +1,4 @@
-(function (Random) {
+(function ({Random}) {
   describe("hex", function () {
     var owns = Object.prototype.hasOwnProperty;
 

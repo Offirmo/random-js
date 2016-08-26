@@ -154,12 +154,13 @@ In your project, run the following command:
 
 In your code:
 
-    var random = require("random-js")(); // uses the nativeMath engine
+    import { Random } from "random-js";
+    const random = Random(); // uses the nativeMath engine
     var value = random.integer(1, 100);
 
 Or to have more control:
 
-    var Random = require("random-js");
+    import { Random } from "random-js";
     var random = new Random(Random.engines.mt19937().autoSeed());
     var value = random.integer(1, 100);
 
@@ -170,15 +171,15 @@ It is recommended to create one shared engine and/or `Random` instance per-proce
 Download `random.min.js` and place it in your project, then use one of the following patterns:
 
     define(function (require) {
-      var Random = require("random");
+      var Random = require("random").Random;
       return new Random(Random.engines.mt19937().autoSeed());
     });
 
     define(function (require) {
-      return require("random")(); // uses the nativeMath engine
+      return require("random").Random(); // uses the nativeMath engine
     });
 
-    define(["random"], function (Random) {
+    define(["random"], function ({Random}) {
       return new Random(Random.engines.mt19937().autoSeed());
     });
 

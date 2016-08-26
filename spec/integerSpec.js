@@ -1,4 +1,4 @@
-(function (Random) {
+(function ({Random}) {
   describe("integer distribution", function () {
     [-Math.pow(2, 53) - 2, -Infinity, NaN, Infinity].forEach(function (min) {
       it("throws a RangeError if min = " + min, function () {

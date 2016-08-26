@@ -1,5 +1,5 @@
 (function (root) {
-  var Random = typeof module !== "undefined" ? require("../lib/random") : root.Random;
+  var Random = typeof module !== "undefined" ? require("../lib/random").Random : root.Random.Random;
   describe("Random", function () {
     describe("constructor", function () {
       it("returns a Random if called without new", function () {

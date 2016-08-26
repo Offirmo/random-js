@@ -1,4 +1,4 @@
-(function (Random) {
+(function ({Random}) {
   describe("bool distribution", function () {
     describe("when passed no arguments", function () {
       it("returns true if the least bit is 1", function () {

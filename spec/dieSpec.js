@@ -1,4 +1,4 @@
-(function (Random) {
+(function ({Random}) {
   describe("die", function () {
     it("returns an integer distribution from 1 to sideCount", function () {
       var sideCount = 1337;

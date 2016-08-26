@@ -1,4 +1,4 @@
-(function (Random) {
+(function ({Random}) {
   describe("sample", function () {
     [-Infinity, Infinity, NaN, -1, 5].forEach(function (sampleSize) {
       it("throws a RangeError if sampleSize is " + sampleSize, function () {

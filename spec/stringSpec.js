@@ -1,4 +1,4 @@
-(function (Random) {
+(function ({Random}) {
   describe("string", function () {
     describe("with pool = 'abcde'", function () {
       it("calls Random.integer", function () {

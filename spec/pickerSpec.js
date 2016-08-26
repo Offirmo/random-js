@@ -1,4 +1,4 @@
-(function (Random) {
+(function ({Random}) {
   describe("picker", function () {
     it("returns a function that returns undefined when passed an empty array", function () {
       var array = {

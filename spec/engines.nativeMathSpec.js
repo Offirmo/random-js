@@ -1,4 +1,4 @@
-(function (Random) {
+(function ({Random}) {
   describe("engines.nativeMath", function () {
     var nativeMath, oldRandom;
     beforeEach(function () {

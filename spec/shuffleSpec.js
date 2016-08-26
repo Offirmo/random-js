@@ -1,4 +1,4 @@
-(function (Random) {
+(function ({Random}) {
   describe("shuffle", function () {
     it("generates evenly-distributed integers from [0, n) where n is the length and decreases each iteration, swapping items each time", function () {
       var engine = function () {};

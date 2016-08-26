@@ -1,4 +1,4 @@
-(function (Random) {
+(function ({Random}) {
   describe("pick", function () {
     describe("with an empty array", function () {
       it("returns undefined", function () {

@@ -1,4 +1,4 @@
-(function (Random) {
+(function ({Random}) {
   describe("dice", function () {
     function makeReturner(input) {
       var index = 0;

@@ -1,4 +1,4 @@
-(function (Random) {
+(function ({Random}) {
   describe("uuid4", function () {
     function makeEngine(input) {
       var index = 0;

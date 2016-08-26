@@ -1,10 +1,10 @@
-(function (Random) {
+(function ({Random}) {
   describe("engines.browserCrypto", function () {
     if (typeof require === "function" && typeof require('crypto').randomBytes === "function") {
       var crypto = require('crypto');
       it("calls crypto.randomBytes for randomness", function () {
         spyOn(crypto, "randomBytes").andCallThrough();
-        
+
         var result = Random.engines.browserCrypto();
 
         expect(crypto.randomBytes).toHaveBeenCalled();
