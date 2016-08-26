@@ -1,3 +1,9 @@
+# ? (2016-08-26)
+
+- Fix Int32Array detection on iOS 9 Safari (from raymond-w-ko)
+- add support for nodejs crypto in browserCrypto engine (from AccaliaDeElementia)
+- intergrate jasmine-node as a dependency
+
 # 1.0.8 (2015-10-13)
 
 - add `getUseCount()` to the `mt19937` engine, which returns how many requests or discards have occurred.
