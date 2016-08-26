@@ -1,8 +1,17 @@
-# ? (2016-08-26)
+# 2.0.1 (2016-08-26)
+
+- declare uglifyjs as a proper dependency + fix its invocation
+- use "np" for releasing
+
+# 2.0.0 (2016-08-26)
 
 - Fix Int32Array detection on iOS 9 Safari (from raymond-w-ko)
 - add support for nodejs crypto in browserCrypto engine (from AccaliaDeElementia)
 - intergrate jasmine-node as a dependency
+
+ XXX
+- BREAKING CHANGE solve ES5/ES6 interop problem by not using a default export
+ XXX
 
 # 1.0.8 (2015-10-13)
 
