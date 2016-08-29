@@ -1,3 +1,7 @@
+# 2.0.3 (2016-08-29)
+
+- feature: improve typescript typings
+
 # 2.0.2 (2016-08-26)
 
 - feature: integrated typescript typings

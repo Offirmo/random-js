@@ -10,10 +10,10 @@ declare module "@offirmo/random" {
 
 	export interface MT19937 extends Engine{
 		(): number
-		seed (value: number): Engine;
-		seedWithArray(array: Array<number>): Engine
-		autoSeed(): Engine;
-		discard(count: number): Engine;
+		seed (value: number): MT19937;
+		seedWithArray(array: Array<number>): MT19937
+		autoSeed(): MT19937;
+		discard(count: number): MT19937;
 		getUseCount(): number;
 	}
 
