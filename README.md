@@ -1,5 +1,7 @@
 # Random.js
 
+**This is an improved fork adding ES6 and typescript compatibility. Hat tip to original author.**
+
 This is designed to be a mathematically correct random number generator library for JavaScript.
 
 Inspiration was primarily taken from C++11's `<random>`.
@@ -150,17 +152,17 @@ This abstracts the concepts of engines and distributions.
 
 In your project, run the following command:
 
-    npm install random-js
+    npm install --save @offirmo/random-js
 
 In your code:
 
-    import { Random } from "random-js";
+    import { Random } from "@offirmo/random-js";
     const random = Random(); // uses the nativeMath engine
     var value = random.integer(1, 100);
 
 Or to have more control:
 
-    import { Random } from "random-js";
+    import { Random } from "@offirmo/random-js";
     var random = new Random(Random.engines.mt19937().autoSeed());
     var value = random.integer(1, 100);
 

@@ -1,18 +1,18 @@
 {
   "name": "@offirmo/random",
-  "description": "A mathematically correct random number generator library for JavaScript.",
+  "description": "A mathematically correct and serializable random number generator library for JavaScript.",
   "version": "2.0.3",
   "author": {
     "name": "Cameron Kenneth Knight",
     "email": "ckknight@gmail.com"
   },
   "keywords": [
-    "random"
+    "random", "prng"
   ],
-  "homepage": "https://github.com/ckknight/random-js",
-  "bugs": "https://github.com/ckknight/random-js/issues",
+  "homepage": "https://github.com/Offirmo/random-js",
+  "bugs": "https://github.com/Offirmo/random-js/issues",
   "license": "MIT",
-  "repository": "git://github.com/ckknight/random-js",
+  "repository": "git://github.com/Offirmo/random-js",
   "main": "lib/random",
   "typings": "lib/random.d.ts",
   "readmeFilename": "README.md",
