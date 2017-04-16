@@ -152,17 +152,17 @@ This abstracts the concepts of engines and distributions.
 
 In your project, run the following command:
 
-    npm install --save @offirmo/random-js
+    npm install --save @offirmo/random
 
 In your code:
 
-    import { Random } from "@offirmo/random-js";
+    import { Random } from "@offirmo/random";
     const random = Random(); // uses the nativeMath engine
     var value = random.integer(1, 100);
 
 Or to have more control:
 
-    import { Random } from "@offirmo/random-js";
+    import { Random } from "@offirmo/random";
     var random = new Random(Random.engines.mt19937().autoSeed());
     var value = random.integer(1, 100);
 
